@@ -24,7 +24,7 @@ public class BudgetCalculator {
     rentAmount = monthlySalary * RENT_PERCENT;
     groceriesAmount = monthlySalary * GROCERIES_PERCENT;
     totalExpenses = rentAmount + groceriesAmount + entertainmentAmount;
-    remainingBudget = monthlySalary - totalExpenses;
+    remainingBalance = monthlySalary - totalExpenses;
 
     // displaying results
     System.out.println("Monthly salary: " + monthlySalary);
