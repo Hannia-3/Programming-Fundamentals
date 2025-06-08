@@ -1,9 +1,7 @@
 public class HelloWorld {
   public statistic void main(String[] args) {
-    // Prints "Hello, World" in the terminal window
     System.out.println("Hello, World!");
 
-    // Output personal information and preferences
     System.out.println("a. My name: Hannia Escalante");
     System.out.println("b. Favorite food: ceviche");
     System.out.println("c. Celebrity I would like to meet: Jake Gyllenhaal");
