@@ -23,6 +23,7 @@ public class BudgetCalculator {
     savedAmount = monthlySalary * SAVINGS_PERCENT;
     rentAmount = monthlySalary * RENT_PERCENT;
     groceriesAmount = monthlySalary * GROCERIES_PERCENT;
+    entertainmentAmount = monthlySalary * ENTERTAINMENT_PERCENT;
     totalExpenses = rentAmount + groceriesAmount + entertainmentAmount;
     remainingBalance = monthlySalary - totalExpenses;
 
