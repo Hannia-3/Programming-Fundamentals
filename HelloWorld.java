@@ -1,6 +1,10 @@
 // below is class declaration, named HelloWorld
 public class HelloWorld {
   //main method where it starts the code
+  /* the main() method represents where to start executing the code
+  the system.out.println() is used to print a text to the console
+  the purpose of comments are to explain what certain lines of code mean
+  */
   public static void main(String[] args) {
     // line that will print HelloWorld to the console
     System.out.println("Hello, World!");
