@@ -1,7 +1,7 @@
 // below is class declaration, named HelloWorld
 public class HelloWorld {
   //main method where it starts the code
-  public statistic void main(String[] args) {
+  public static void main(String[] args) {
     // line that will print HelloWorld to the console
     System.out.println("Hello, World!");
 
