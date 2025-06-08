@@ -40,7 +40,7 @@ public class SimpleJavaDecisionBasedCalculator {
               break;
           case "/":
               if (num2 == 0) {
-                  System.out.printlh("Error: Division by zero.");
+                  System.out.println("Error: Division by zero.");
                   error = true;
               } else {
                   result = num1/num2;
