@@ -26,7 +26,7 @@ public class Book {
       return "Book{" +
              "title='" + title + '\'' + 
              ", price=" + price + 
-             ", author= + author +
+             ", author=" + author +
              '}';
   }
 }
