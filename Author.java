@@ -1,9 +1,9 @@
 class Author {
   private String name;
   private String email;
-  private string nationality;
+  private String nationality;
 
-  public Author(String name, String email, String nationality); {
+  public Author(String name, String email, String nationality) {
       this.name = name;
       this.email = email;
       this.nationality = nationality;
