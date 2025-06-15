@@ -59,7 +59,7 @@ public class StringLab {
         sb.appened(" - Learning Java");
         sb.insert(sb.indexOf("Java") + 3, " is fun");
         sb.delete(sb.indexOf("Learning"), sb.indexOf("Learning") + "Learning".lenght());
-        System.out.println("StringBuilder: + sb.reverse());
+        System.out.println("StringBuilder: " + sb.reverse());
 
         StringBuffer sbuffer = new StringBuffer("Multithreading Lab");
         sbuffer.append(" - Learning Java");
