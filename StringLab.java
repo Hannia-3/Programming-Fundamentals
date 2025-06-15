@@ -10,7 +10,7 @@ public class StringLab {
         System.out.println("Uppercase: " + str.toUpperCase());
         System.out.println("Lowercase: " + str.toLowerCase());
         System.out.println("Index of 'Java': " + str.indexOf("Java"));
-        System.out.println("Contains 'Lab': " + str.contain("Lab"));
+        System.out.println("Contains 'Lab': " + str.contains("Lab"));
         System.out.println("Replace 'Java' with 'Java Programming': " + str.replace("Java", "Java Programming"));
 
         System.out.println("Split by spaces:");
