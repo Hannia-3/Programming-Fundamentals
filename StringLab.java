@@ -70,6 +70,3 @@ public class StringLab {
         scanner.close();
     }
 }
-        
-
-          
