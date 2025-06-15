@@ -4,11 +4,11 @@ public class StringLab {
     public static void main(String[] args) {
 
         String str = " Welcome to the Java String Lab! ";
-        System.out.println("Lenght: " + str.lenght());
+        System.out.println("Length: " + str.length());
         System.out.println("Character at index 7: " + str.charAt(7));
         System.out.println("Substring: " + str.substring(15,20));
-        System.out.println("Uppercase: " + str.toUppercase());
-        System.out.println("Lowercase: " + str.toLowercase());
+        System.out.println("Uppercase: " + str.toUpperCase());
+        System.out.println("Lowercase: " + str.toLowerCase());
         System.out.println("Index of 'Java': " + str.indexOf("Java"));
         System.out.println("Contains 'Lab': " + str.contain("Lab"));
         System.out.println("Replace 'Java' with 'Java Programming': " + str.replace("Java", "Java Programming"));
@@ -25,9 +25,9 @@ public class StringLab {
         System.out.println("Equals Ignore Case: " + str.equalsIgnoreCase(compareStr));
 
         int vowelCount = 0;
-        for (int i = 0; i < str.lenght(); i++) {
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if (c == 'a' || c == 'e' || c == 'o' || c == 'u') {
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                 vowelCount++;
             }
         }
@@ -39,7 +39,7 @@ public class StringLab {
         int right = palindrome.lenght() - 1;
         while (left < right) {
             if (palindrome.charAt(left) != palindrome.charAt(right)) {
-                isPslindrome = false;
+                isPalindrome = false;
                 break;
             }
             left++;
