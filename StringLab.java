@@ -36,7 +36,7 @@ public class StringLab {
         String palindrome = "racecar";
         boolean isPalindrome = true;
         int left = 0;
-        int right = palindrome.lenght() - 1;
+        int right = palindrome.length() - 1;
         while (left < right) {
             if (palindrome.charAt(left) != palindrome.charAt(right)) {
                 isPalindrome = false;
@@ -52,19 +52,19 @@ public class StringLab {
         do {
             System.out.println("Enter a sentence: ");
             input = scanner.nextLine();
-        } while (!inlut.contains("Java"));
+        } while (!input.contains("Java"));
         System.out.println("Thank you! ");
 
         StringBuilder sb = new StringBuilder("StringBuilder Lab");
-        sb.appened(" - Learning Java");
+        sb.append(" - Learning Java");
         sb.insert(sb.indexOf("Java") + 3, " is fun");
-        sb.delete(sb.indexOf("Learning"), sb.indexOf("Learning") + "Learning".lenght());
+        sb.delete(sb.indexOf("Learning"), sb.indexOf("Learning") + "Learning".length());
         System.out.println("StringBuilder: " + sb.reverse());
 
         StringBuffer sbuffer = new StringBuffer("Multithreading Lab");
         sbuffer.append(" - Learning Java");
         sbuffer.insert(sbuffer.indexOf("Lab") + 3, " is fun");
-        sbuffer.delete(sbuffer.indexOf("Learning"), sbuffer.indexOf("Learning") + "Learning".lenght());
+        sbuffer.delete(sbuffer.indexOf("Learning"), sbuffer.indexOf("Learning") + "Learning".length());
         System.out.println("StringBuffer: " + sbuffer.reverse());
 
         scanner.close();
