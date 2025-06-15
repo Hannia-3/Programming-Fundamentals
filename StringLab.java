@@ -1,4 +1,4 @@
-import java.util.scanner;
+import java.util.Scanner;
 
 public class StringLab {
     public static void main(String[] args) {
